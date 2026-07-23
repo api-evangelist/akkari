@@ -1,22 +1,66 @@
 aid: akkari
 name: Akkari
-description: Akkari is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Akkari is an autonomous customer operations platform that runs the operational
+  work across the entire customer lifecycle — from the first sales call through
+  onboarding, success, and expansion. It captures every commitment, issue,
+  request, and opportunity surfaced across customer channels like Slack, Discord,
+  email, calls, and meetings, then executes the actual work to close each loop:
+  drafting follow-ups, converting bug reports into tickets, scheduling meetings,
+  and flagging expansion signals. Built for AI-native startups by 2x Y Combinator
+  founders (OrderAhead, acquired by Square; and BLADE), Akkari integrates with
+  tools including Slack, Linear, GitHub, Gmail, and PostHog.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://akkari.io/favicon-192x192.png
 url: https://raw.githubusercontent.com/api-evangelist/akkari/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment-pass-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Customer Operations
+- Customer Success
+- Artificial Intelligence
+- Automation
+- Workflow Automation
+- SaaS
+- Y Combinator
+- AI Agents
 apis: []
+common:
+- type: DomainSecurity
+  url: security/akkari-domain-security.yml
+- type: Website
+  url: https://akkari.io/
+- type: Login
+  url: https://app.akkari.io/auth
+- type: TermsOfService
+  url: https://akkari.io/terms.html
+- type: PrivacyPolicy
+  url: https://akkari.io/privacy.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
