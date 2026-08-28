@@ -10,6 +10,17 @@ description: >-
   and flagging expansion signals. Built for AI-native startups by 2x Y Combinator
   founders (OrderAhead, acquired by Square; and BLADE), Akkari integrates with
   tools including Slack, Linear, GitHub, Gmail, and PostHog.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
