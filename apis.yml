@@ -65,6 +65,11 @@ tags_raw:
 - AI Agents
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/square/
+  name: Square
+  x-relationship: acquired
+  x-evidence: "Built for AI-native startups by 2x Y Combinator founders (OrderAhead, acquired by Square; and BLADE), Akkari integrates with tools including Slack, Linear, GitHub, Gmail, and PostHog."
 - type: DomainSecurity
   url: security/akkari-domain-security.yml
 - type: Website
